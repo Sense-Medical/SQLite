@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EE2151781CACB0F700377C60"
-               BuildableName = "SQLite-Mac.framework"
+               BuildableName = "SQLite.framework"
                BlueprintName = "SQLite-Mac"
                ReferencedContainer = "container:SQLite.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE2151781CACB0F700377C60"
-            BuildableName = "SQLite-Mac.framework"
+            BuildableName = "SQLite.framework"
             BlueprintName = "SQLite-Mac"
             ReferencedContainer = "container:SQLite.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE2151781CACB0F700377C60"
-            BuildableName = "SQLite-Mac.framework"
+            BuildableName = "SQLite.framework"
             BlueprintName = "SQLite-Mac"
             ReferencedContainer = "container:SQLite.xcodeproj">
          </BuildableReference>
