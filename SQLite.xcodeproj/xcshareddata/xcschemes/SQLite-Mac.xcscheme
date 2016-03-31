@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE21514F1CACAB8900377C60"
-               BuildableName = "SQLite.framework"
-               BlueprintName = "SQLite"
+               BlueprintIdentifier = "EE2151781CACB0F700377C60"
+               BuildableName = "SQLite-Mac.framework"
+               BlueprintName = "SQLite-Mac"
                ReferencedContainer = "container:SQLite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE21514F1CACAB8900377C60"
-            BuildableName = "SQLite.framework"
-            BlueprintName = "SQLite"
+            BlueprintIdentifier = "EE2151781CACB0F700377C60"
+            BuildableName = "SQLite-Mac.framework"
+            BlueprintName = "SQLite-Mac"
             ReferencedContainer = "container:SQLite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE21514F1CACAB8900377C60"
-            BuildableName = "SQLite.framework"
-            BlueprintName = "SQLite"
+            BlueprintIdentifier = "EE2151781CACB0F700377C60"
+            BuildableName = "SQLite-Mac.framework"
+            BlueprintName = "SQLite-Mac"
             ReferencedContainer = "container:SQLite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

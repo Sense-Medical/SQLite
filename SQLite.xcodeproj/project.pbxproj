@@ -11,30 +11,20 @@
 		EE21515E1CACAB9B00377C60 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EE21515B1CACAB9B00377C60 /* sqlite3.c */; };
 		EE21515F1CACAB9B00377C60 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515C1CACAB9B00377C60 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE2151601CACAB9B00377C60 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515D1CACAB9B00377C60 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE2151681CACABEF00377C60 /* SQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2151671CACABEF00377C60 /* SQLiteTests.swift */; };
-		EE21516A1CACABEF00377C60 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2151501CACAB8900377C60 /* SQLite.framework */; };
+		EE21517A1CACB0F700377C60 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EE21515B1CACAB9B00377C60 /* sqlite3.c */; };
+		EE21517D1CACB0F700377C60 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515C1CACAB9B00377C60 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE21517E1CACB0F700377C60 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2151531CACAB8900377C60 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE21517F1CACB0F700377C60 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515D1CACAB9B00377C60 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EE21516B1CACABEF00377C60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE2151471CACAB8900377C60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE21514F1CACAB8900377C60;
-			remoteInfo = SQLite;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		EE2151501CACAB8900377C60 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2151501CACAB8900377C60 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2151531CACAB8900377C60 /* SQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
 		EE2151551CACAB8900377C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE21515B1CACAB9B00377C60 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 		EE21515C1CACAB9B00377C60 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		EE21515D1CACAB9B00377C60 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
-		EE2151651CACABEF00377C60 /* SQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE2151671CACABEF00377C60 /* SQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteTests.swift; sourceTree = "<group>"; };
-		EE2151691CACABEF00377C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2151841CACB0F700377C60 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,11 +35,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE2151621CACABEF00377C60 /* Frameworks */ = {
+		EE21517B1CACB0F700377C60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE21516A1CACABEF00377C60 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				EE2151521CACAB8900377C60 /* SQLite */,
-				EE2151661CACABEF00377C60 /* SQLiteTests */,
 				EE2151511CACAB8900377C60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,8 +56,8 @@
 		EE2151511CACAB8900377C60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE2151501CACAB8900377C60 /* SQLite.framework */,
-				EE2151651CACABEF00377C60 /* SQLiteTests.xctest */,
+				EE2151501CACAB8900377C60 /* .framework */,
+				EE2151841CACB0F700377C60 /* SQLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,15 +74,6 @@
 			path = SQLite;
 			sourceTree = "<group>";
 		};
-		EE2151661CACABEF00377C60 /* SQLiteTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE2151671CACABEF00377C60 /* SQLiteTests.swift */,
-				EE2151691CACABEF00377C60 /* Info.plist */,
-			);
-			path = SQLiteTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,12 +87,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE21517C1CACB0F700377C60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE21517D1CACB0F700377C60 /* sqlite3.h in Headers */,
+				EE21517E1CACB0F700377C60 /* SQLite.h in Headers */,
+				EE21517F1CACB0F700377C60 /* sqlite3ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EE21514F1CACAB8900377C60 /* SQLite */ = {
+		EE21514F1CACAB8900377C60 /* SQLite-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE2151581CACAB8900377C60 /* Build configuration list for PBXNativeTarget "SQLite" */;
+			buildConfigurationList = EE2151581CACAB8900377C60 /* Build configuration list for PBXNativeTarget "SQLite-iOS" */;
 			buildPhases = (
 				EE21514B1CACAB8900377C60 /* Sources */,
 				EE21514C1CACAB8900377C60 /* Frameworks */,
@@ -124,28 +113,28 @@
 			);
 			dependencies = (
 			);
-			name = SQLite;
+			name = "SQLite-iOS";
 			productName = SQLite;
-			productReference = EE2151501CACAB8900377C60 /* SQLite.framework */;
+			productReference = EE2151501CACAB8900377C60 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EE2151641CACABEF00377C60 /* SQLiteTests */ = {
+		EE2151781CACB0F700377C60 /* SQLite-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE21516D1CACABEF00377C60 /* Build configuration list for PBXNativeTarget "SQLiteTests" */;
+			buildConfigurationList = EE2151811CACB0F700377C60 /* Build configuration list for PBXNativeTarget "SQLite-Mac" */;
 			buildPhases = (
-				EE2151611CACABEF00377C60 /* Sources */,
-				EE2151621CACABEF00377C60 /* Frameworks */,
-				EE2151631CACABEF00377C60 /* Resources */,
+				EE2151791CACB0F700377C60 /* Sources */,
+				EE21517B1CACB0F700377C60 /* Frameworks */,
+				EE21517C1CACB0F700377C60 /* Headers */,
+				EE2151801CACB0F700377C60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE21516C1CACABEF00377C60 /* PBXTargetDependency */,
 			);
-			name = SQLiteTests;
-			productName = SQLiteTests;
-			productReference = EE2151651CACABEF00377C60 /* SQLiteTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "SQLite-Mac";
+			productName = SQLite;
+			productReference = EE2151841CACB0F700377C60 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -158,9 +147,6 @@
 				ORGANIZATIONNAME = "Sense Medical";
 				TargetAttributes = {
 					EE21514F1CACAB8900377C60 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					EE2151641CACABEF00377C60 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -177,8 +163,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE21514F1CACAB8900377C60 /* SQLite */,
-				EE2151641CACABEF00377C60 /* SQLiteTests */,
+				EE21514F1CACAB8900377C60 /* SQLite-iOS */,
+				EE2151781CACB0F700377C60 /* SQLite-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE2151631CACABEF00377C60 /* Resources */ = {
+		EE2151801CACB0F700377C60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,23 +195,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE2151611CACABEF00377C60 /* Sources */ = {
+		EE2151791CACB0F700377C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2151681CACABEF00377C60 /* SQLiteTests.swift in Sources */,
+				EE21517A1CACB0F700377C60 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EE21516C1CACABEF00377C60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE21514F1CACAB8900377C60 /* SQLite */;
-			targetProxy = EE21516B1CACABEF00377C60 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EE2151561CACAB8900377C60 /* Debug */ = {
@@ -266,10 +244,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = macosx10.11;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -308,9 +288,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = macosx10.11;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -334,7 +316,6 @@
 					"-DHAVE_USLEEP=1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLite;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -355,29 +336,47 @@
 					"-DHAVE_USLEEP=1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLite;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		EE21516E1CACABEF00377C60 /* Debug */ = {
+		EE2151821CACB0F700377C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SQLiteTests/Info.plist;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SQLite/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLiteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				OTHER_CFLAGS = (
+					"-DSQLITE_ENABLE_JSON1=1",
+					"-DSQLITE_ENABLE_LOCKING_STYLE=0",
+					"-DHAVE_USLEEP=1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLite;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		EE21516F1CACABEF00377C60 /* Release */ = {
+		EE2151831CACB0F700377C60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SQLiteTests/Info.plist;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SQLite/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLiteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_CFLAGS = (
+					"-DSQLITE_ENABLE_JSON1=1",
+					"-DSQLITE_ENABLE_LOCKING_STYLE=0",
+					"-DHAVE_USLEEP=1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensemedical.SQLite;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -393,21 +392,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE2151581CACAB8900377C60 /* Build configuration list for PBXNativeTarget "SQLite" */ = {
+		EE2151581CACAB8900377C60 /* Build configuration list for PBXNativeTarget "SQLite-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE2151591CACAB8900377C60 /* Debug */,
 				EE21515A1CACAB8900377C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EE21516D1CACABEF00377C60 /* Build configuration list for PBXNativeTarget "SQLiteTests" */ = {
+		EE2151811CACB0F700377C60 /* Build configuration list for PBXNativeTarget "SQLite-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE21516E1CACABEF00377C60 /* Debug */,
-				EE21516F1CACABEF00377C60 /* Release */,
+				EE2151821CACB0F700377C60 /* Debug */,
+				EE2151831CACB0F700377C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
