@@ -10,20 +10,17 @@
 		EE2151541CACAB8900377C60 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2151531CACAB8900377C60 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE21515E1CACAB9B00377C60 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EE21515B1CACAB9B00377C60 /* sqlite3.c */; };
 		EE21515F1CACAB9B00377C60 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515C1CACAB9B00377C60 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE2151601CACAB9B00377C60 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515D1CACAB9B00377C60 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE21517A1CACB0F700377C60 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EE21515B1CACAB9B00377C60 /* sqlite3.c */; };
 		EE21517D1CACB0F700377C60 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515C1CACAB9B00377C60 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE21517E1CACB0F700377C60 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2151531CACAB8900377C60 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE21517F1CACB0F700377C60 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = EE21515D1CACAB9B00377C60 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE2151501CACAB8900377C60 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = .framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2151501CACAB8900377C60 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2151531CACAB8900377C60 /* SQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
 		EE2151551CACAB8900377C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE21515B1CACAB9B00377C60 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 		EE21515C1CACAB9B00377C60 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
-		EE21515D1CACAB9B00377C60 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 		EE2151841CACB0F700377C60 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,7 @@
 		EE2151511CACAB8900377C60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE2151501CACAB8900377C60 /* .framework */,
+				EE2151501CACAB8900377C60 /* SQLite.framework */,
 				EE2151841CACB0F700377C60 /* SQLite.framework */,
 			);
 			name = Products;
@@ -68,7 +65,6 @@
 				EE2151531CACAB8900377C60 /* SQLite.h */,
 				EE21515B1CACAB9B00377C60 /* sqlite3.c */,
 				EE21515C1CACAB9B00377C60 /* sqlite3.h */,
-				EE21515D1CACAB9B00377C60 /* sqlite3ext.h */,
 				EE2151551CACAB8900377C60 /* Info.plist */,
 			);
 			path = SQLite;
@@ -83,7 +79,6 @@
 			files = (
 				EE21515F1CACAB9B00377C60 /* sqlite3.h in Headers */,
 				EE2151541CACAB8900377C60 /* SQLite.h in Headers */,
-				EE2151601CACAB9B00377C60 /* sqlite3ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +88,6 @@
 			files = (
 				EE21517D1CACB0F700377C60 /* sqlite3.h in Headers */,
 				EE21517E1CACB0F700377C60 /* SQLite.h in Headers */,
-				EE21517F1CACB0F700377C60 /* sqlite3ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +109,7 @@
 			);
 			name = "SQLite-iOS";
 			productName = SQLite;
-			productReference = EE2151501CACAB8900377C60 /* .framework */;
+			productReference = EE2151501CACAB8900377C60 /* SQLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE2151781CACB0F700377C60 /* SQLite-Mac */ = {
